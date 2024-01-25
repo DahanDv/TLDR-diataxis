@@ -2,6 +2,8 @@
 (WIP)
 This project aims to be a short and accessible guide for the [The Diátaxis documentation framework](https://diataxis.fr/).
 
+![Diataxis diagram](assets/diataxis.jpg)
+
 ## Goal
 Create a reduced version of the document: [The Diátaxis documentation framework](https://diataxis.fr/).  
 The guide should explain briefly and reduce the framework to a list of guidelines,  
