@@ -20,7 +20,9 @@ As you probably noticed, the axises are labeled with 4 types of *states* of the 
 2. Acquisition 
 3. Application
 4. Cognition
-
+![The Axises](assets/two-dimensions.png)
+Let's take a closer look at this: 
+- The X-axis: *Action* and *Cognition* is the 
 
 Each type of documentation falls within a different quad of the map that represents the intersection of one of the four *states*! 
 
