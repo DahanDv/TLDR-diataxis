@@ -116,26 +116,54 @@ Recall the map again, notice action(doing) exists for both Aquisition(learning) 
 Tutorials and How-to Guides, despite belonging to the different categories of Learning and Doing correspondingly, share in common the fact that their are action-oriented towards the reader. In Tutorials the users is looking to learn a concept and we guide them via action-orinted lesson, while in the How-to Guide the user looks to accomplish a specific goal.
 
 ### When we are in "Thinking" mode
-There's less clicking noise from our keyboard. We turn on noise cancellation. We contemplate about the concept, either breifly when we need a quick lookup to something (Reference) or deeply for longer period of time when we are curiuos and wish to gain deep understanding and learn the inner workings of our tools (Explanation). 
+There's less clicking noise from our keyboard. We turn on noise cancellation. We contemplate about the concept, either *shallowly and breifly* when we *work* and we need a quick lookup to something (Reference), or *for longer period of time and deeply*  when we are curiuos and wish to gain deep understanding and *learn* the inner workings of our tools (Explanation). 
+
+__Both Thinking and doing modes spans across the Learning and Working spaces, but in different ways.__
 
 #### What's a Reference? 
 A dry collection of small and densely compact pieces of information. And by information we mean __nothing but information__. There're no opinions or explanations in the reference (tho some examples for context are OK when necessary) and there's no teaching!
- 
+Nobody ever reads it. It's unreadable by design. It should be **consulted with**, not read. Remember, this is ***working** oriented guide, not learning*.
+
+Recall this scene from The Big Short...
+> Michael Burry : It's only a matter of time before someone else sees this investment. We have to act now.
+> Lawrence Fields : And how do you know these bonds are built on subprime crap? Aren't they filled with hundreds of pages of mortgages?
+> Michael Burry : I read them.
+> Lawrence Fields : You read them? __No one reads them__...
+
+Lawrence was right. No one reads bonds. A collective of dry infromation ment not to be read but consulted with. Indeed no read them. Except Michael Burry. 
+
 Examples:
 | context | example of reference |
 |-----------------------------|-|
+| Accounting | spreadsheets |
 | cooking | the nutritions facts on the back of a product|
-| Technical textbook | glossary or explanations at the end of the book | 
-| __software documentation__ | __API reference__ - a dry list of the methods / __Architecture diagram__ - lines connecting rectengles representing different software components|
+| Technical textbook | glossary or author's notes at the end of the book | 
+| __software documentation__ | __API reference__ - a dry list of the methods / __Architecture diagram__ - defines software components relationships |
 
 We're focused here on the software angle of things. 
 API reference in software documentation is (usually auto generated) list of the class and methods, with little and short explanation of each in case the name isn't clear. 
 
-##### If reference is *thinking* (Cognition) and *working* (Application) related, when the user approaches it in the real world? 
+##### If reference is both *thinking* (Cognition) and *working* (Application) related, when the user approaches it in the real world? 
 When they need a quick lookup for something. 
 For Ex:
 - A user is looking for a specific endpoint of your API. 
 - A user is trying to build a plugin that expands your tool's ecosystem. they'll look and consider possible entry points more than once. Each time they'll go back to your reference and lookup viable options. 
 
 #### What's an Explanation? 
+
+Explanation is an exceptional type of documentation from the rest in the sense that it is the only type of documentation the user can engage with when they're **away from the product**. 
+
+The Explanation is an invitation for the user to dive deeper into the product, and the proper place to bring to light things that were implicit or obscured so far.
+For Ex:
+1. Design choices
+2. Technical constraints (e.g. when users ask why certain things are impossible)
+3. Historical reasons 
+4. A broader view at the product's ecosystem (if exists).
+5. The philosophy and motivations at the heart of the product.
+
+While it may be tempting to think of explanation is a luxury to have, and understandably it takes time to put together, it is not luxury. Without explanation your users understanding of your product is:
+- fragmented
+- fragile
+- and their experience is anxious. 
+
 
