@@ -9,11 +9,13 @@ This project aims to be a short and accessible guide for the [The Diátaxis docu
 ### Diátaxis Pilars 
 Take another look at the map (or graph, however you wish to think about it)
 Diátaxis defines 4 types of documentations:
-1. Tutorials
-2. How-to Guides
-3. Reference Guides
-4. Explanations Guides
+1. Tutorials - *learning*
+2. How-to Guides - *goals*
+3. Reference - *information*
+4. Explanations - *understanding*
+#### The map of a *skill* or a *craft*:
 ![Diataxis diagram](assets/diataxis.jpg)
+Let's contemplate about this map for a few minutes. 
 
 As you probably noticed, the axises are labeled with 4 types of *states* of the user that reads your docs:
 1. Action
@@ -21,8 +23,8 @@ As you probably noticed, the axises are labeled with 4 types of *states* of the 
 3. Application
 4. Cognition
 ![The Axises](assets/two-dimensions.png)
-Let's take a closer look at this: 
-- The X-axis: *Action* and *Cognition* is the 
+
+##### 
 
 Each type of documentation falls within a different quad of the map that represents the intersection of one of the four *states*! 
 
@@ -30,23 +32,29 @@ Each type of documentation falls within a different quad of the map that represe
 
 ### Study vs Work lens
 Let's take those user *states* mentioned earlier and roughly divide them into two categories:
-1. Work
-2. Learn
+1. Work (*Application*)
+2. Learn (*Acquisition*)
+(In other words: The X-axis!)
 
 and from now on, we keep those division lens and look at everything via them. 
 Let me explain breifly: 
-#### When we learn something
-We are not working. Or not producing anytihng of value except our own ***aquision*** of some knoweldge or skill.
-We are looking for a resource that will help us understand some *tool* or basic *knowledge* that we know we currently lack.
+#### When we learn something:
+We are not working. Or not producing anytihng of value except our own ***acquision*** of some knoweldge or skill.
+We are looking for a resource that will teach us some *tool* or *concept* or basic *knowledge* that we know we currently lack.
 In other words, we are not creating anything valueable that someone else can use (code, article, tools, etc.).
+**We are focused on learning a concept - the concept we look to _acquire_ and be comfortable with.**
+**We are asking ourselves:**
+> What is *X*?
+
 for Ex: 
-If we just **learn** what is an API, its basic usecases and examples ***in a Tutorial***, we do not expect to find at the same tutorial instruction of how to design a complexed and abstruct meta-programing plugins-architecture APIs; That would be nuts for someone who's just trying to get the basics of a concept or a tool! 
-Such How-To guide will assume we already have suffecient knowledge to approach such task in the first place!
+If we just **learn** what is an API, its basic usecases and examples ***in a Tutorial***, we do not expect to find at the same tutorial detailed *explanation*s of all types of APIs and their philisophies, nor instruction of *how-to* implement a complicated one.
+Naturally, a resource that posses any of this knowledge assumes the reader already have suffecient knowledge to digest these concepts in the first place!
 *However...*
 #### ...When we work on somehting 
 We already have *sifficient working knowledge/skill* in the field or craft. 
-We know roughly what we are doing, what we should do, and we have some idea of ways to achieve our goal. 
-**We are focused on the goal - the thing we want to get *done*.
+We already *Acquired* the basics and the conceptual knowledge and now we are looking to *apply* it into something meaningful and productive.
+We know roughly what we are doing, what we should do, and we have some idea of ways to achieve our goal, but it's vaug, at best. We knwo there's a way - we just need someone that will show it to us. 
+**We are focused on the goal - the thing we want to get *done*. Our desitinaiton. 
 We are asking ourselves:**
 > How-to do *X*?
 
