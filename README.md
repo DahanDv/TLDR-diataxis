@@ -53,17 +53,21 @@ Naturally, a resource that posses any of this knowledge assumes the reader alrea
 #### ...When we work on somehting 
 We already have *sifficient working knowledge/skill* in the field or craft. 
 We already *Acquired* the basics and the conceptual knowledge and now we are looking to *apply* it into something meaningful and productive.
-We know roughly what we are doing, what we should do, and we have some idea of ways to achieve our goal, but it's vaug, at best. We knwo there's a way - we just need someone that will show it to us. 
+We know roughly what we are doing, what we should do, and we have some idea of ways to achieve our goal, but it's vaug, at best. We know there's a way - we just need someone that will show it to us. 
 **We are focused on the goal - the thing we want to get *done*. Our desitinaiton. 
 We are asking ourselves:**
 > How-to do *X*?
 
 For Ex:
-supposed you are a Python developer looking for a way to make your test suite more compact and easy to maintain while not compromising on the coverage of your tests. You notice the boliraplate patterns in your suite and you know that some parametrizatoin solutions are out there, and you step on a pytest How-to guide: ***"How to parametrize your tests"***. Great. 
-Such a How-to guide **cannot** and **should not** explain: 
-the basics of pytest, 
-it's core features, 
-or it's internal mechanisms.
+supposed you are a Python developer looking for a way to make your test suite more compact and easy to maintain while not compromising on the coverage of your tests (in fact, your'e looking for a way tog et more coverage without much hussle). Your'e working with pytest for a while and you comfotably write tests and fixtures that sutisfied you up until now (you alreday *aquired* the skill of working with pytest and its basic concepts). 
+You notice the boliraplate patterns in your suite and you know that some parametrizatoin solutions are out there, and you step on a pytest How-to guide: ***"How to parametrize your tests"***. Great. 
+| Such a How-to guide **cannot** and **should not** explain | where it belongs | category |
+|-----------------------------------------------------------|------------------|----------|
+| the basics of pytest                                      | Tutorial         | Learning |
+| pytest's core featuers                                    | Tutorial         | Learning |
+| it's internal mechanisms                                  | Explanation      | Learning |
+| Its internal APIs                                         | Reference        | Working  |
+
 It must stay hyper focused on the goal - show you how to parametrize your tests; **get that work *done*.**
 
 
