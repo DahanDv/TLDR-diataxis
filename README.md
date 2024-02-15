@@ -1,8 +1,14 @@
 # TLDR-diataxis
-(WIP)
+## Goal
 This project aims to be a short and accessible guide for the [The Diátaxis documentation framework](https://diataxis.fr/).
+It includes:
+- A reduced but broad explanation of the framework -  for general undersanding. 
+- Pairs of "template & golden rules" for each of the documentation types are defined by Diátaxis - for for those in a hurry :D 
+## Motivation
+Offer a faster way to employ it so both maintainers and occasional contributes can agree on documentation standarts. 
+Hopefully making [The Diátaxis framework](https://diataxis.fr/) more wide spread and known on the way.
 
-![Diataxis diagram](assets/diataxis.jpg)
+![Diataxis diagram](assets/diataxis-map.jpg)
 
 ## What is Diátaxis?
 [The Diátaxis framework](https://diataxis.fr/) is a comprehensive guide for maintainers to build great docs.
@@ -21,7 +27,7 @@ Diátaxis defines 4 types of documentations:
 the list above might be overwhelming for some; its more for setting the stage a being used as a reference we can lookup for the rest of this document. Let's look at the map and things will get clearer as we progress 🧑‍💻​
 
 #### This map is of a *skill* or a *craft* :
-![Diataxis diagram](assets/diataxis.jpg)
+![Diataxis diagram](assets/diataxis-map.jpg)
 Let's contemplate about this map for a few minutes. 
 
 As you probably noticed, the axises are labeled with 4 types of *states* of the user that reads your docs:
@@ -91,23 +97,3 @@ Remeber: How-to guide is *work-oriented* document, hyper focused on the goal. It
 *More on __Referecne__ and __Explanation__ right away*
 
 
-
-
-## Goal
-Create a reduced version of the document: [The Diátaxis documentation framework](https://diataxis.fr/).  
-The guide should explain briefly and reduce the framework to a list of guidelines,  
-"Do's and Dont's," with some accompanying examples,  
-so anyone who writes documentation can quickly check on themselves.  
-This reduced version of Diataxis won't cover [The Diátaxis documentation framework](https://diataxis.fr/) in its Orthodox interpretation.  
-However, it is better than the Wild West of documentation we suffer from today,  
-and it may encourage some to go deeper on the matter and perfect their docs.  
-
-## Motivation
-[The Diátaxis framework](https://diataxis.fr/) is a comprehensive guide for maintainers to build great docs.  
-The sad truth is - most people won't (or can't) make the time to learn it.  
-Understandably, documenting takes time and effort.  
-And learning [The Diátaxis framework](https://diataxis.fr/) also takes time.  
-
-In order to encourage more maintainers to adopt [Diátaxis](https://diataxis.fr/) as a standard for their docs,  
-either via their own craft or by outside, one-time contributors,  
-we need to make this knowledge more accessible and digestible.  
