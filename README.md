@@ -54,8 +54,18 @@ In other words, we are not creating anything valueable that someone else can use
 > Can you teach me *X* ?
 
 for Ex: 
-If we just **learn** what is an API, its basic usecases and examples ***in a Tutorial***, we do not expect to find at the same tutorial detailed *explanation*s of all types of APIs and their philisophies, nor instruction of *how-to* implement a complicated one.
-Naturally, a resource that posses any of this knowledge assumes the reader already have suffecient knowledge to digest these concepts in the first place!
+You are a python developer and you arrive at a new company. You clone the repo and you see that all of the tests are written in the pytest framework. Supposed you used other testing frameworks so far and the pytest form is unreadable for you at the moment. You must learn the framework basics in order to start contributing to the project (assume this is project that enforces tests coverage). 
+You are looking for someone to take you by the hand and teach you the framework's basics - __that's a Tutorial.__
+| Such a Tutorial **cannot** and **should not** teach | where it belongs | category |
+|-------------------------------------------------------|------------------|----------|
+| how to implement a pytest plugin                      | How-to           | working |
+| hot to parametrize fixtures                           | How-to           | working |
+| pytest's internal mechanisms                          | Explanation      | Learning |
+| Its internal APIs                                     | Reference        | Working  |
+
+__Why?__
+A tutorial is aiming at teaching a concept that the pupil can generalize build a skill upon, and it is hyper focused on action-learning. __Almost any__ explanation is unnecessary here and distructs the pupil. Resis the temptation to explain in a tutorial. It's like a cooking book that teaches you basic cooking concepts, but not complete recipes - it walks you throu frying, baking and slicing - pointing our attention at things that will help you aquire the general skills so you can capatelize on them when you need to! 
+
 *However...*
 #### ...When we work on somehting 
 We already have *sifficient working knowledge/skill* in the field or craft. 
@@ -66,7 +76,7 @@ We are asking ourselves:**
 > How-to do *X*?
 
 For Ex:
-supposed you are a Python developer looking for a way to make your test suite more compact and easy to maintain while not compromising on the coverage of your tests (in fact, your'e looking for a way tog et more coverage without much hussle). Your'e working with pytest for a while and you comfotably write tests and fixtures that sutisfied you up until now (you alreday *aquired* the skill of working with pytest and its basic concepts). 
+supposed you are a Python developer looking for a way to make your test suite more compact and easy to maintain while not compromising on the coverage of your tests (in fact, your'e looking for a way to get more coverage with less hussle). Your'e working with pytest for a while and you comfotably write tests and fixtures that sutisfied you up until now (you alreday *aquired* the skill of working with pytest and its basic concepts). 
 You notice the boliraplate patterns in your suite and you know that some parametrizatoin solutions are out there, and you step on a pytest How-to guide: ***"How to parametrize your tests"***. Great. 
 | Such a How-to guide **cannot** and **should not** explain | where it belongs | category |
 |-----------------------------------------------------------|------------------|----------|
