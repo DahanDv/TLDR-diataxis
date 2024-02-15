@@ -43,7 +43,7 @@ Each type of documentation falls within a different quad of the map that represe
 
 ##### It's not clear! I agree! Let's simpify :) 
 
-### Study vs Work lens
+### Learn vs Work lens
 Let's take those user *states* mentioned earlier and roughly divide them into two categories:
 1. Work (*Application*)
 2. Learn (*Acquisition*)
@@ -88,7 +88,7 @@ You notice the boliraplate patterns in your suite and you know that some paramet
 |-----------------------------------------------------------|------------------|----------|
 | the basics of pytest                                      | Tutorial         | Learning |
 | pytest's core featuers                                    | Tutorial         | Learning |
-| it's internal mechanisms                                  | Explanation      | Learning |
+| its internal mechanisms                                  | Explanation      | Learning |
 | Its internal APIs                                         | Reference        | Working  |
 
 ##### why?
@@ -96,4 +96,46 @@ __Answer:__ It must stay hyper focused on the goal - show you how to parametrize
 Remeber: How-to guide is *work-oriented* document, hyper focused on the goal. It's like a recipe - you use it to follow instruction towards a specific dish - not to learn cooking's basics (that's tutorial), or contemplate on cooking chimestry and why oil makes everything taste better (explanation) or what are the nutritions facts of our favorate ingridient (reference). 
 *More on __Referecne__ and __Explanation__ right away*
 
+## Ok. We understand Tutorials and How-to guides, but what about Reference and Explanation?
+---
+
+## Do vs Think lens
+Let's create a nother way of devision of our user states described by the axises:
+
+1. Do (*Action*)
+2. Think (*Cognition*)
+
+In other words: the Y-axis! 
+From now on, we put those "Do vs Think" lens *on top* of our previuos "Learn vs Work" lens, so we see everything via both of them!
+
+### When we are in "Doing" mode
+We do not contemplate about things, maybe just a little, but most of the time it's our favorite keyboard caps clickin' :D .
+"Doing" (*action*) isn't exclusively bound to either Learning or Working. It exists in both of them (tho I agree it is more clearly linked to Working), however, a good tutorial is one that pushes the pupil to do stuff and learn via action. 
+Recall the map again, notice action(doing) exists for both Aquisition(learning) and Application(action):
+![Diataxis diagram](assets/diataxis-map.jpg)
+Tutorials and How-to Guides, despite belonging to the different categories of Learning and Doing correspondingly, share in common the fact that their are action-oriented towards the reader. In Tutorials the users is looking to learn a concept and we guide them via action-orinted lesson, while in the How-to Guide the user looks to accomplish a specific goal.
+
+### When we are in "Thinking" mode
+There's less clicking noise from our keyboard. We turn on noise cancellation. We contemplate about the concept, either breifly when we need a quick lookup to something (Reference) or deeply for longer period of time when we are curiuos and wish to gain deep understanding and learn the inner workings of our tools (Explanation). 
+
+#### What's a Reference? 
+A dry collection of small and densely compact pieces of information. And by information we mean __nothing but information__. There're no opinions or explanations in the reference (tho some examples for context are OK when necessary) and there's no teaching!
+ 
+Examples:
+| context | example of reference |
+|-----------------------------|-|
+| cooking | the nutritions facts on the back of a product|
+| Technical textbook | glossary or explanations at the end of the book | 
+| __software documentation__ | __API reference__ - a dry list of the methods / __Architecture diagram__ - lines connecting rectengles representing different software components|
+
+We're focused here on the software angle of things. 
+API reference in software documentation is (usually auto generated) list of the class and methods, with little and short explanation of each in case the name isn't clear. 
+
+##### If reference is *thinking* (Cognition) and *working* (Application) related, when the user approaches it in the real world? 
+When they need a quick lookup for something. 
+For Ex:
+- A user is looking for a specific endpoint of your API. 
+- A user is trying to build a plugin that expands your tool's ecosystem. they'll look and consider possible entry points more than once. Each time they'll go back to your reference and lookup viable options. 
+
+#### What's an Explanation? 
 
