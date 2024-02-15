@@ -6,7 +6,10 @@ This project aims to be a short and accessible guide for the [The Diátaxis docu
 
 ## What is Diátaxis?
 [The Diátaxis framework](https://diataxis.fr/) is a comprehensive guide for maintainers to build great docs.
-### Diátaxis Pilars 
+### Diátaxis Pilars - the map
+#### Why understand the map?
+The map will help us understand each type of documentation, but even more importantly, it will help us understand __which type of documentation we are trying to create__ - and once we know that - we are beyond the hard part of achiving excellenct documentation. Yeah, this is most of the struggle. 
+
 Take another look at the map (or graph, however you wish to think about it)
 Diátaxis defines 4 types of documentations:
 1. Tutorials - *learning*
@@ -68,7 +71,8 @@ You notice the boliraplate patterns in your suite and you know that some paramet
 | it's internal mechanisms                                  | Explanation      | Learning |
 | Its internal APIs                                         | Reference        | Working  |
 
-It must stay hyper focused on the goal - show you how to parametrize your tests; **get that work *done*.**
+##### why?
+__Answer:__ It must stay hyper focused on the goal - show you how to parametrize your tests; **get that work *done*.**
 
 
 
