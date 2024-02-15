@@ -11,12 +11,16 @@ This project aims to be a short and accessible guide for the [The Diátaxis docu
 The map will help us understand each type of documentation, but even more importantly, it will help us understand __which type of documentation we are trying to create__ - and once we know that - we are beyond the hard part of achiving excellenct documentation. Yeah, this is most of the struggle. 
 
 Take another look at the map (or graph, however you wish to think about it)
+we'll see it multiple times.
 Diátaxis defines 4 types of documentations:
-1. Tutorials - *learning*
-2. How-to Guides - *goals*
-3. Reference - *information*
-4. Explanations - *understanding*
-#### The map of a *skill* or a *craft*:
+1. __Tutorials__ - action-oriented activity, learning via doing
+2. __How-to Guides__ - action-oriented activity, applying a skill, working toward a goal
+3. __Reference__ - cognition-oriented activity, quick-information-lookup while applying a skill
+4. __Explanations__ - cognition-oriented activity, learning something more deeply
+
+the list above might be overwhelming for some; its more for setting the stage a being used as a reference we can lookup for the rest of this document. Let's look at the map and things will get clearer as we progress 🧑‍💻​
+
+#### This map is of a *skill* or a *craft* :
 ![Diataxis diagram](assets/diataxis.jpg)
 Let's contemplate about this map for a few minutes. 
 
@@ -47,7 +51,7 @@ We are looking for a resource that will teach us some *tool* or *concept* or bas
 In other words, we are not creating anything valueable that someone else can use (code, article, tools, etc.).
 **We are focused on learning a concept - the concept we look to _acquire_ and be comfortable with.**
 **We are asking ourselves:**
-> What is *X*?
+> Can you teach me *X* ?
 
 for Ex: 
 If we just **learn** what is an API, its basic usecases and examples ***in a Tutorial***, we do not expect to find at the same tutorial detailed *explanation*s of all types of APIs and their philisophies, nor instruction of *how-to* implement a complicated one.
@@ -73,6 +77,8 @@ You notice the boliraplate patterns in your suite and you know that some paramet
 
 ##### why?
 __Answer:__ It must stay hyper focused on the goal - show you how to parametrize your tests; **get that work *done*.**
+Remeber: How-to guide is *work-oriented* document, hyper focused on the goal. It's like a recipe - you use it to follow instruction towards a specific dish - not to learn cooking's basics (that's tutorial), or contemplate on cooking chimestry and why oil makes everything taste better (explanation) or what are the nutritions facts of our favorate ingridient (reference). 
+*More on __Referecne__ and __Explanation__ right away*
 
 
 
